@@ -36,6 +36,8 @@ hr {
 
 }
 
+
+
 .bar-info{
 
   margin-top: 30px;
@@ -51,10 +53,11 @@ hr {
 
 .container{
   max-width:960px;
-  height: 1500px;
+  height: 1150px;
   margin: 65px auto;
   position: relative;
   background-color: white;
+  overflow: hidden;
 }
 
 .side-bar{
@@ -67,9 +70,10 @@ hr {
 
 }
 
+
 .side-bar-hero{
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 5px;
   text-align: center;
   width: auto;
   height: auto;
