@@ -57,7 +57,7 @@ hr {
 
 .container{
   max-width:960px;
-  height: 1150px;
+  height: auto;
   margin: 65px auto;
   position: relative;
   background-color: white;
