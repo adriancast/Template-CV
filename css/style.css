@@ -8,6 +8,7 @@ font-size: 14px;
 padding: 30px;
 -webkit-font-smoothing: antialiased;
 }
+
 ul{
 
   list-style-type: none;
@@ -28,21 +29,23 @@ hr {
   margin-top:20px;
   margin-bottom: :20px;
 }
-/*This fix the style of the icons on list of the left bar*/
-.fa{
-  margin-right: 5px;
-  font-size: 18px;
-  vertical-align: middle;
-
-}
 
 
+/*side-bar*/
 
 .bar-info{
 
   margin-top: 30px;
   margin-bottom: 60px;
   margin-left: 15px;
+}
+
+/*This fix the style of the icons on list of the left bar*/
+.fa{
+  margin-right: 5px;
+  font-size: 18px;
+  vertical-align: middle;
+
 }
 
 .text-left{
@@ -111,4 +114,25 @@ hr {
     .bar-info{
       text-align: center;
     }
+}
+
+/*Content*/
+
+.content{
+
+  padding-left: 360px;
+}
+
+/*Footer*/
+
+.credits{
+
+  text-align: center;
+
+}
+
+#heart{
+
+  padding-bottom: 3px;
+  color: red;
 }
