@@ -45,6 +45,7 @@ hr {
   margin-right: 5px;
   font-size: 18px;
   vertical-align: middle;
+  color: white;
 
 }
 
@@ -111,6 +112,12 @@ hr {
 
 
 /*Content*/
+.circle-icon {
+    background: #000000;
+    padding:10px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
 
 .content{
 
