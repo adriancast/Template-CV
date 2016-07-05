@@ -6,13 +6,16 @@
     <title>CV</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
+	<script src="js/changeImage.js"> </script>
+
   </head>
   <body>
 
     <div class="container">
         <div class="side-bar">
           <div class="side-bar-hero">
-            <img src="img/avatar.jpg" alt="avatar" class="avatar">
+            <img onmouseover="changeImage(this)" onmouseout="changeImage(this)" src="img/avatar.jpg" alt="avatar" class="avatar">
             <h1>Adrián </br>Castellanos</h1>
             <hr></hr>
             <h2>Front End Dev</h2>
